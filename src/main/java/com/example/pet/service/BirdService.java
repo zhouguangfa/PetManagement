@@ -2,16 +2,16 @@ package com.example.pet.service;
 
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("bird")
 public class BirdService implements PetService {
     
     @Override
-    public String makeSound() {
-        return "小鸟叽叽喳喳！";
+    public String speak() {
+        return "啾啾！我是鸟";
     }
     
     @Override
-    public String play() {
-        return "小鸟在笼子里跳来跳去！";
+    public String getType() {
+        return "bird";
     }
 }

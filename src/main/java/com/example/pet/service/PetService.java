@@ -1,6 +1,6 @@
 package com.example.pet.service;
 
 public interface PetService {
-    String makeSound();
+    String speak();
     String getType();
 }
